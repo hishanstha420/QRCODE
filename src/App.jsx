@@ -4,7 +4,7 @@ function App() {
   
 
   return (
-    <div className="App">
+    <main>
       <div className="container">
       <img className="image" src={qrcode} alt="qrcode" />
       <div className="info">
@@ -15,7 +15,7 @@ function App() {
        
       </div>
       </div>
-    </div>
+    </main>
   )
 }
 
